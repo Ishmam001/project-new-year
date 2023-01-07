@@ -31,6 +31,7 @@ header{
     color: #444343;
     text-align: right;
 }
+/* contact-btn */
 .contact-btn{
     width: 100px;
     height: 110px;
@@ -41,7 +42,45 @@ header{
     border-radius: 5px;
     
 }
-.contact-btn, a{
+ .contact-btn, a{
     text-decoration: none;
     color: #ffff;
+}
+/* person-img and artical part */
+.person-img, img{
+    width: 300px;
+    height: 450px;
+    margin-top: 30px;
+    margin-left: 150px; 
+ }
+.artical-part{
+    display: flex;
+}
+.artical{
+    text-align: right;
+    width: 300px;
+    height: 400px;
+    margin-left: 350px;
+    margin-top: 200px;
+}
+
+.artical-desription{
+    width: 300px;
+    height: 104px;
+    color: #444343;
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: 24px;
+}
+/* list style */
+ul{ 
+    width: 300px;
+    height: 104px;
+    color: #444343;
+    font-weight: 200;
+    font-size: 16px;
+    margin-right: 500px;
+    margin-bottom: 800px;
+    list-style: none;
+    line-height: 20px;
 }
