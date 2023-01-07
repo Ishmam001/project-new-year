@@ -119,7 +119,7 @@ ul{
     margin-left: 300px;
     width: 750px;
     height: 200px;
-    background-image: url(/Styles/images/watch.png),url(/Styles/images/gradient2.png);
+    background-image: url(/Styles/watch.png),url(/Styles/gradient2.png);
     background-blend-mode: screen;
 }
 .blend .blend-title{
