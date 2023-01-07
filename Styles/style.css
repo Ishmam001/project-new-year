@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    width: 1600px;
+    height: 808px;
+    background-image: url(../Styles/banner/banner1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+.header-title{
+    width: 525px;
+    height: 228px;
+    margin-left: 800px;
+    margin-top: 216px;
+    text-align: right;
+    font-size: 65px;
+    color:  #151414;
+}
+.headr-description{
+    width: 425px;
+    height: 228px;
+    margin-left: 900px;
+    margin-top: 10px;
+    color: #444343;
+    text-align: right;
+}
+.contact-btn{
+    width: 100px;
+    height: 110px;
+    margin-left: 1200px;
+    margin-bottom: 250px;
+    background-color:  #F15B22;
+    border: none;
+    border-radius: 5px;
+    
+}
+.contact-btn, a{
+    text-decoration: none;
+    color: #ffff;
+}
