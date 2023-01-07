@@ -5,7 +5,7 @@
 
 }
 header{
-    width: 1600px;
+    width: 1400px;
     height: 808px;
     background-image: url(../Styles/banner/banner1.png);
     background-position: center;
@@ -17,7 +17,7 @@ header{
 .header-title{
     width: 525px;
     height: 228px;
-    margin-left: 800px;
+    margin-left: 700px;
     margin-top: 216px;
     text-align: right;
     font-size: 65px;
@@ -26,7 +26,7 @@ header{
 .headr-description{
     width: 425px;
     height: 228px;
-    margin-left: 900px;
+    margin-left: 800px;
     margin-top: 10px;
     color: #444343;
     text-align: right;
@@ -35,7 +35,7 @@ header{
 .contact-btn{
     width: 100px;
     height: 110px;
-    margin-left: 1200px;
+    margin-left: 1100px;
     margin-bottom: 250px;
     background-color:  #F15B22;
     border: none;
@@ -51,7 +51,7 @@ header{
     width: 300px;
     height: 450px;
     margin-top: 30px;
-    margin-left: 150px; 
+    margin-left: 100px; 
  }
 .artical-part{
     display: flex;
@@ -60,7 +60,7 @@ header{
     text-align: right;
     width: 300px;
     height: 400px;
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 200px;
 }
 
@@ -74,13 +74,43 @@ header{
 }
 /* list style */
 ul{ 
-    width: 300px;
-    height: 104px;
     color: #444343;
-    font-weight: 200;
-    font-size: 16px;
-    margin-right: 500px;
-    margin-bottom: 800px;
     list-style: none;
     line-height: 20px;
 }
+/* plan section */
+.plan{
+    width: 900px;
+    height: 200px;
+    margin-left: 300px;
+}
+/* Plans */
+.my-plan-section{
+    margin-left: 300px;
+    width: 700px;
+    height: 270px
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-title{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.skill-description{
+    color: #757575;
+    margin-top: 10px;
+}
+.skills-container{
+    display: flex;
+    gap: px;
+} 
