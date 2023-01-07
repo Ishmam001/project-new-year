@@ -92,7 +92,7 @@ ul{
 }
 .section-title{
     text-align: center;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: 24px;
 }
 .skill{
@@ -114,3 +114,32 @@ ul{
     display: flex;
     gap: px;
 } 
+/* bland section */
+.blend{
+    margin-left: 300px;
+    width: 750px;
+    height: 200px;
+    background-image: url(/Styles/images/watch.png),url(/Styles/images/gradient2.png);
+    background-blend-mode: screen;
+}
+.blend .blend-title{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 400px;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    
+}
+.call-btn{
+    width: 110px;
+    height: 50px;
+    color: #fa4a04;
+    background-color: bisque;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
