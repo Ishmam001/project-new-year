@@ -33,8 +33,9 @@ header{
 }
 /* contact-btn */
 .contact-btn{
-    width: 100px;
-    height: 110px;
+    width: 90px;
+    height: 50px;
+    margin-top: 20px;
     margin-left: 1100px;
     margin-bottom: 250px;
     background-color:  #F15B22;
